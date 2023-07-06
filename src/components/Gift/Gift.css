@@ -1,0 +1,27 @@
+.container_gift{
+    height: 300px;
+}
+
+.carusselGifts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carusselGifts button{
+    margin: 10px 20px;
+    padding: 5px 10px;
+    border-radius: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: transparent;
+    transition: 0.5;
+}
+.carusselGifts button:hover{
+    background:rgb(150, 18, 18);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.carusselGifts img{
+    height: 300px;
+}
