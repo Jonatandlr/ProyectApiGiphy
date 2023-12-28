@@ -2,6 +2,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* background-color: rgb(32, 32, 32);
+    border: 3px solid #fff; */
+    border-radius: 20px;
+    height: 60vh;
+    margin: 50px 0px;
+}
+.container_search{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: rgb(32, 32, 32);
     border: 3px solid #fff;
     border-radius: 20px;

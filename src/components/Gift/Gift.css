@@ -1,8 +1,10 @@
 .container_gift{
+    /* margin: 50px 0px; */
     height: 300px;
 }
 
 .carusselGifts{
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,5 +25,17 @@
 }
 
 .carusselGifts img{
-    height: 300px;
+    
+    transition: 0.5s;
+}
+
+.cointainer__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    border-radius: 20px;
+    width: 360px;
+    height: 200px;
+    overflow: hidden;
 }
